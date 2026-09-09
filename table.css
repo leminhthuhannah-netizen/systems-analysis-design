@@ -1,3 +1,41 @@
-.header{
+.header-row{
     background-color: yellow;
+    color: blue;
+    font-size: 25px;
+
+}
+
+.table-container{
+    display: flex;
+    justify-content: center;
+}
+
+.data_1-row{
+    color: red;
+    background-color: lightgray;
+}
+
+.data_2-row{
+    color: green;
+    background-color: lightgreen;
+}
+
+.data_3-row{
+    color: blue;
+    background-color: lightblue;
+}
+
+.data_size-row{
+    font-size: 14px;
+}
+
+.data_1-row:hover{
+    background-color: lightpink;
+}
+.data_2-row:hover{
+    background-color: lightyellow;
+}
+
+.data_3-row:hover{
+    background-color: lightcyan;
 }
