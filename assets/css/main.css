@@ -60,7 +60,19 @@ body {
 .introduce-img img{
     width: 100%;
     max-width: 350px;
+    border-radius: 5px;
 }
 
+
+/* home.html */
+#content-home {
+    width: 65%;
+    margin: 60px auto;
+}
+
+.img-container img{
+    width: 100%;
+    max-width: 1000px;
+}
 
 
