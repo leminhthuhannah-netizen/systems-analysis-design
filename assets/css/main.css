@@ -1,0 +1,88 @@
+body{
+    background-color: #f7f7f7;
+}
+
+.header{
+    display: flex;
+    background-color: var(--white-color);
+    height: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 20px;
+    align-items: center;
+    
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    gap: 10px;
+}
+
+.header-logo img{
+    width: 55%;
+}
+
+.header-logo .header-logo_slogan{
+    font-size: 19px;
+    flex: 1; 
+}
+
+/* Navigation */
+.header-navigation .header-navigation_list{
+    display: flex;
+    list-style: none;
+}
+
+.navigation-list_link{
+    text-decoration: none;
+    color: var(--black-color);
+    padding: 10px 24px;
+}
+
+.navigation-list_link:hover{
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+/* Body */
+
+.main-container{
+    margin: 30px auto;
+    width: 90%;
+    display: flex;
+    gap: 20px;
+   
+    
+}
+
+.product-item_container{
+    background-color: var(--white-color);
+    width: 20%;
+
+    
+}
+.product-item_container .procduct-img{
+    width: 100%;
+}
+
+.procduct-item_desc{
+    padding: 10px 20px ;
+    line-height: 1.5;
+}
+.product-item_name{
+    font-size: 20px;
+}
+
+.product-item-address{
+    color: #8e8989;
+    font-size: 13px;
+}
+
+.product-item_food{
+    padding: 0px 20px 10px;
+}
+
+.icon-list_favorite{
+    color: var(--primary-color);
+}
