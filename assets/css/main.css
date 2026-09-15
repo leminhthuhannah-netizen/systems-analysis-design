@@ -23,7 +23,7 @@ body{
     width: 55%;
 }
 
-.header-logo .header-logo_slogan{
+.header-logo .header-logo_name{
     font-size: 19px;
     flex: 1; 
 }
@@ -32,6 +32,11 @@ body{
 .header-navigation .header-navigation_list{
     display: flex;
     list-style: none;
+}
+
+.header-navigation_list li:first-child a{
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
 }
 
 .navigation-list_link{
@@ -86,3 +91,5 @@ body{
 .icon-list_favorite{
     color: var(--primary-color);
 }
+
+
