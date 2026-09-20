@@ -1,0 +1,56 @@
+.parent{
+    position: relative;
+    background-color: lightblue;
+    height: 500px;
+    width: 800px;
+}
+
+.child{
+    position: absolute;
+    background-color: lightpink;
+    height: 200px;
+    width: 300px;
+    top: 100px;
+    right: 400px ;
+}
+
+.children{
+    position: absolute;
+    background-color: lightgoldenrodyellow;
+    height: 200px;
+    width: 300px;
+    top: 100px;
+    right: 50px;
+}
+
+
+/* session 2 */
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+.box{
+    width: 25%;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+p{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+button{
+    position: absolute;
+    top: 15px;
+    left: 70%;
+    padding: 5px 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: none;
+}
