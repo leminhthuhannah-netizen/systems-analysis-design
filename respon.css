@@ -1,0 +1,94 @@
+body{
+    background-color: #ccc;
+    margin: 0 auto;
+}
+
+img{
+    width: 500px;  
+}
+
+.hình1{
+    display: block;
+}
+.hình2, .hình3 ,.hình4, .hình5{
+    display: none;
+}
+
+
+@media screen and (max-width: 960px) {
+    body{
+        background-color: lightpink;
+    }
+    img{
+        width: 900px;
+    }
+    .color{
+        text-align: center;
+        background-color: lightgoldenrodyellow;
+    }
+    .hình2{
+    display: block;
+}
+    .hình1, .hình3 ,.hình4, .hình5{
+        display: none;
+    }
+        
+}
+
+@media screen and (max-width: 768px){
+     body{
+        background-color: lightsalmon;
+    }
+    img{
+        width: 700px;
+    }
+    .color{
+        text-align: center;
+        background-color: orchid;
+    }
+    .hình3{
+    display: block;
+}
+    .hình1, .hình2 ,.hình4, .hình5{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+     body{
+        background-color: lightyellow;
+    }
+    img{
+        width: 500px;
+    }
+    .color{
+        text-align: center;
+        background-color: orange;
+    }
+    .hình4{
+    display: block;
+}
+    .hình1, .hình2 ,.hình3, .hình5{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px){
+     body{
+        background-color: lightgreen;
+    }
+    img{
+        width: 300px;
+    }
+    .color{
+        text-align: center;
+        background-color: red;
+    }
+    .hình4{
+    display: block;
+}
+    .hình1, .hình2 ,.hình3, .hình5{
+        display: none;
+    }
+}
