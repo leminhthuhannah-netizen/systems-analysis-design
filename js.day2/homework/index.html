@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/js.day2/homework/styles.css">
+   
+    <script src="https://kit.fontawesome.com/61c4a4816c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <p class="header-form">
+            <i class="fa-solid fa-shop"></i> 
+            Shop Product
+        </p>
+    </header>
+    <div class="main-body">
+        <div class="product-form_container">
+            <div class="product-form_col">
+                <div class="product-form_desc">
+                    <label class="product-name" for="product-name" >Product Name</label>
+
+                    <div class="input-wrap">
+                        <i class="icon-input fa-solid fa-tag "></i>
+                        <input type="text" id="product-name" class="product-form_input">
+
+                    </div>
+                </div>
+                <div class="product-form_desc">
+                    <label for="quantity"
+                    class="product-name" >Quantity</label>
+                    <div class="input-wrap">
+                        <i class="icon-input fa-solid fa-arrow-up-9-1"></i>
+                        <input type="number" id="quantity" class="product-form_input">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-form_col">
+                <div class="product-form_desc">
+                    <label class="product-name" for="unit-price">Unit Price</label>
+                    <div class="input-wrap">
+                        <i class="icon-input fa-solid fa-circle-dollar-to-slot"></i>
+                        <input type="number" id="unit-price" class="product-form_input">
+                    </div>
+                </div>
+                <div class="product-form_desc">
+                    <label class="product-name" for="discount">Discount</label>
+                    <div class="input-wrap">
+                        <i class="icon-input fa-solid fa-percent"></i>
+                        <input type="number" id="discount" class="product-form_input">
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-form_btn">
+                <button type="button" id="product-btn_sell" class="button-format"><i class="fa-solid fa-basket-shopping "></i> Sell</button>
+                <button type="button" id="product-btn_cancel" class="button-format_white">Cancel</button>
+            </div>
+            
+
+
+        </div>
+
+
+        <div class="container-table">
+            <table class="product-table">
+                <!-- title header we use thead -->
+                <thead class="product-table_head">
+                    <tr class="product-table_row">
+                        <th class="product-table_title">ID</th>
+                        <th class="product-table_title">Product Name</th>
+                        <th class="product-table_title">Quantity</th>
+                        <th class="product-table_title">Unit Price</th>
+                        <th class="product-table_title">Discount</th>
+                        <th class="product-table_title">Subtotal</th>
+                    </tr>
+                </thead>
+
+                <!-- That is main body -->
+                <tbody class="product-table_body" id="product-list">
+                    
+                </tbody>
+
+    </table>
+            
+        </div>
+    </div>
+
+     <script src="/js.day2/homework/main.js"></script>
+</body>
+</html>
