@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        for (let i = 0; i < 5; i++) {
+            for (let j = 0; j < 10; j++) { 
+                document.write("<div class='square'></div>");
+            }
+            document.write("<div style='clear:both'></div>"); 
+        }
+
+        // for(let i = 0; i < 6; i++){
+        //     var sum = 0;
+        //     sum = sum + i ;
+        // }
+        // console.log(sum);
+
+
+        // for (let i = 1; i <= 6; i++){
+        //     var ava = 0;
+        //     if (i % 2 === 0) {
+        //         ava += i; 
+        //     }
+        // }
+        // console.log(ava);
+
+        let sum = 0;
+        let sochan = 0;
+        for(let i = 0; i<6; i++){
+            sum += i;
+            if (i % 2 === 0){
+                sochan +=i;
+            }
+        }
+        console.log(sum);
+        console.log(sochan);
+        
+
+        let cong = 0;
+        {
+            let i = 0;
+            while (i < 6){
+                cong += i;
+                i++
+            }
+        }
+        console.log(cong);
+        
+
+    </script>
+
+    <!-- <style>
+        .square {
+            height: 20px;
+            width: 20px;
+            float: left;
+            border: 1px solid gray;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            background: yellow;
+        }
+    </style> -->
+</body>
+</html>
